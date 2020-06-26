@@ -17,7 +17,6 @@ def checkForRectangle(point_list):
     return distance_list[0] == sqrt((distance_list[1] ** 2 + distance_list[2] ** 2))
 
 # Driver Code
-# point_list = [(0, 0), (4, 3), (1, 7), (-3, 4)]
 point_list = [(0, 0), (4, 3), (-6, 8), (-2, 11)]
 
 if checkForRectangle(point_list):
